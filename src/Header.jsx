@@ -10,9 +10,9 @@ export function Header() {
                     Some switch (dark mode?) <input type="checkbox" />
                 </label>
                 <nav>
-                    <Link to="/">Home</Link>
-                    <Link to="/images">Image Gallery</Link>
-                    <Link to="/account">Account</Link>
+                    <Link className="header-link" to="/">Home</Link>
+                    <Link className="header-link" to="/images">Image Gallery</Link>
+                    <Link className="header-link" to="/account">Account</Link>
                 </nav>
             </div>
         </header>
